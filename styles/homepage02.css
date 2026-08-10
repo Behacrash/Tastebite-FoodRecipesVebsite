@@ -224,4 +224,25 @@
     font-weight: 600;
 }
 
+.fresh {
+    margin-top: 25px;
+}
 
+.fresh-imgs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.fresh-img img {
+    width: 100%;
+    border-radius: var(--br-radius);
+}
+
+.fresh-img p {
+    font-size: 15px;
+    font-weight: 700;
+    padding: 5px;
+}
