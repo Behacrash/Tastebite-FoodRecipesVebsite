@@ -231,9 +231,8 @@
 .fresh-imgs {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 30px;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    gap: 25px;
+    margin-top: 25px;
 }
 
 .fresh-img img {
@@ -246,3 +245,38 @@
     font-weight: 700;
     padding: 5px;
 }
+
+.mchbb {
+    display: flex;
+    margin-top: 20px;
+}
+
+.mchbb-element p {
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 30px;
+    width: 250px;
+    text-align: start;
+}
+
+.mchbb-acc {
+    margin-top: 20px;
+    text-align: start;
+    margin-left: 30px;
+    font-weight: 600;
+}
+
+.mchbb-info {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.info-date, .info-comment {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: var(--color-666);
+}
+
