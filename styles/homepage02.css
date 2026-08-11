@@ -248,7 +248,11 @@
 
 .mchbb {
     display: flex;
-    margin-top: 20px;
+    margin-top: 70px;
+}
+
+.mchbb img {
+    border-radius: var(--br-radius);
 }
 
 .mchbb-element p {
@@ -280,3 +284,55 @@
     color: var(--color-666);
 }
 
+.insta-acc {
+    border: 2px solid var(--text-color);
+    border-radius: var(--br-radius);
+    margin-top: 50px;
+    padding: 25px;
+}
+
+.acc-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.acc-nav i {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.acc-nav button {
+    cursor: pointer;
+    background: transparent;
+    padding: 3px 20px;
+    border: 2.2px solid #111111;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.insta-info {
+    display: flex;
+    gap: 25px;
+    margin: 20px 0;
+}
+
+.insta p {
+    text-align: start;
+    font-weight: 700;
+}
+
+.insta span {
+    color: var(--color-666);
+}
+
+.posting {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.posting img {
+    width: 100%;
+    border-radius: var(--br-radius);
+}
