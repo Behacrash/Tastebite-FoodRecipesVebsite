@@ -1,8 +1,8 @@
 :root {
-    --color-black-000:#000000;
-    --color-black-111:#111111;
-    --color-muted:#666666;
-    
+    --color-black-000: #000000;
+    --color-black-111: #111111;
+    --color-muted: #666666;
+    --br-color-e8e8e8:#E8E8E8;
 }
 
 * {
@@ -17,40 +17,56 @@
     padding: 15px;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 0;
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
 }
 
 .logo a {
+    color: var(--color-black-000);
     text-decoration: none;
-  font-size: 24px;
-  font-weight: bold;
-  font-style: italic;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
 }
 
 nav ul {
-  display: flex;
-  list-style: none;
-  gap: 25px;
-  font-weight: 500;
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    font-weight: 500;
 }
 
 nav ul li {
     cursor: pointer;
-    display:flex;
-    align-items:center;
+    display: flex;
+    align-items: center;
 }
 
 nav ul li a {
+    color: var(--color-black-000);
     text-decoration: none;
 }
 
 .nav-icons {
-  display: flex;
-  gap: 20px;
-  font-size: 18px;
-  cursor: pointer;
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    cursor: pointer;
 }
+
+.categories {
+    width: 100%;
+    text-align: start;
+    margin-top: 30px;
+    border-bottom: 1.5px solid var(--br-color-e8e8e8);
+}
+
+
+
+
+
+
+
