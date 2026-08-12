@@ -157,3 +157,12 @@ footer {
 .footer-links a {
     color: var(--color-666);
 }
+
+@media screen and (max-width: 440px) {
+    nav ul {
+        display: none;
+    }
+    .category-imgs {
+        grid-template-columns: 1fr 1fr;
+    }
+}
