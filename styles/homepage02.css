@@ -468,6 +468,7 @@ footer {
 
 .footer-col ul li a {
     text-decoration: none;
+    color: var(--color-666);
 }
 
 .footer-bottom {
@@ -485,10 +486,18 @@ footer {
     color: var(--color-666);
 }
 
+.footer-tastebite svg {
+    color: var(--color-666);
+}
+
 .footer-links {
     display: flex;
     gap: 15px;
     font-size: 14px;
+    color: var(--color-666);
+}
+
+.footer-links a {
     color: var(--color-666);
 }
 
