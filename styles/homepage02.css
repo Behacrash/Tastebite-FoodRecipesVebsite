@@ -390,3 +390,39 @@
     padding: 2px 20px;
     margin: 28px auto 15px 160px;
 }
+
+.larec {
+    text-align: start;
+    margin-bottom: 50px;
+}
+
+.section6-imgs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.s-img img {
+    width: 93%;
+    border-radius: var(--br-radius);
+}
+
+.s-img p {
+    text-align: start;
+    padding-left: 12px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.section6-btns {
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 60px auto;
+    background: transparent;
+    padding: 5px 25px;
+    border: 2px solid var(--color-black-111);
+}
+
+
