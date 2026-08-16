@@ -10,6 +10,8 @@
     --bg-footer: #f9f9f9;
     --bg-newsletter: #ffdcd1;
     --primary-color: #ff5a36;
+
+    --br-radius: 5px;
 }
 
 * {
@@ -117,6 +119,15 @@
   font-size: 18px;
 }
 
+.card {
+    border-radius: var(--br-radius);
+}
+
+.card .rating {
+  color: var(--primary-color);
+  font-size: 20px;
+}
+
 .section5 {
     margin-top: 60px;
     margin-bottom: 100px;
@@ -158,7 +169,7 @@
     background: transparent;
     border: 2px solid var(--color-black-111);
     padding: 2px 20px;
-    margin: auto auto 15px 160px;
+    margin: auto auto 10px 360px;
 }
 
 .btn2, .btn3 {
@@ -168,7 +179,7 @@
     background: transparent;
     border: 2px solid var(--color-black-111);
     padding: 2px 20px;
-    margin: 28px auto 15px 160px;
+    margin: 28px auto 15px 360px;
 }
 
 .grid-4 {
